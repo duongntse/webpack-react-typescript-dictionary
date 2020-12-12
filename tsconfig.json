@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": true,
+        "outDir": "./dist/",
+        "baseUrl": "./",
+        "jsx": "react",
+        "lib": [
+            "ES2016",
+            "DOM",
+            "ESNext"
+        ],
+        "types": [
+            "chrome",
+            "jest",
+            "node"
+        ],
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": false,
+        "noEmit": true,
+        "strictNullChecks": true,
+        "rootDir": "src",
+    },
+    "include": [
+        "src/**/*",
+        "./typings/**/*.d.ts",
+        "src/**/*.spec.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "dist",
+        "build",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTests.ts"
+    ],
+    "types": [
+        "typePatches"
+    ]
+}

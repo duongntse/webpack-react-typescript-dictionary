@@ -1,0 +1,18 @@
+export { default as LdoceContainer } from './component/container/LdoceContainer';
+export { default as LdoceHeadwordContainer } from './component/headwordSection/LdoceHeadwordContainer';
+export { default as LdoceHeadword } from './component/headwordSection/LdoceHeadword';
+export { default as LdoceBritainIPA } from './component/headwordSection/LdoceBritainIPA';
+export { default as LdoceSenseContainer } from './component/sensesSection/LdoceSenseContainer';
+export { default as LdoceDefinition } from './component/sensesSection/LdoceDefinition';
+export { default as LdocePosContainer } from './component/posSection/LdocePosContainer';
+export { default as LdocePos } from './component/posSection/LdocePos';
+export { default as LdoceExampleContainer } from './component/sensesSection/example/LdoceExampleContainer';
+export { default as LdoceExampleTitle } from './component/sensesSection/example/LdoceExampleTitle';
+export { default as LdoceExampleBody } from './component/sensesSection/example/LdoceExampleBody';
+export { default as LdoceExampleElement } from './component/sensesSection/example/LdoceExampleElement';
+export { default as Ldoce } from './service/ldoce';
+export * from './contract/interfaces/IApiLdoceByHeadword';
+export * from './contract/interfaces/IApiLdoceByHeadword';
+export * from './contract/interfaces/IApiLdoceByID';
+export * from './contract/interfaces/ICommon';
+export * from './contract/interfaces/IDicData';

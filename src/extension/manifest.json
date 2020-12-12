@@ -1,0 +1,39 @@
+{
+    "name": "Dictionary With Images",
+    "version": "1.0",
+    "description": "Dictionary with related Images to help us more easier to understand and remember the word. ",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tts"
+    ],
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self'; object-src 'self' ",
+    "background": {
+        "scripts": [
+            "js/hotReload.js",
+            "js/background.js"
+        ]
+    },
+    "content_scripts": [ {
+        "all_frames": true,
+        "js": [
+            "js/content.js"
+        ],
+        "matches": [
+            "<all_urls>"
+        ],
+        "run_at": "document_end"
+    } ],
+    "web_accessible_resources": [
+        "*.png",
+        "*.gif"
+    ],
+    "icons": {
+        "128": "e09c2fc126dd5f9e15bfefa779171555.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "f2ca4d85679a30c10077a1ec45d7f19c.png"
+    }
+}

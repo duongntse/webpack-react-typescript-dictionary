@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LdoceHeadwordContainer /> should render with given state from redux store 1`] = `
+<div
+  className="MuiGrid-root Component-root-2 MuiGrid-item MuiGrid-grid-xs-12"
+>
+  <h4
+    className="MuiTypography-root textHeadword makeStyles-headword-106 MuiTypography-h4 MuiTypography-colorTextSecondary MuiTypography-displayInline"
+  >
+    test
+  </h4>
+   
+  <p
+    className="MuiTypography-root Component-ipa-137 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayInline"
+    style={
+      Object {
+        "fontSize": "1em",
+      }
+    }
+  >
+    /test/
+  </p>
+   
+  <div
+    className="MuiBox-root MuiBox-root-144 Component-boxMedia-138 boxAudioMedia BRITAIN_SPEAKER_HEADWORD"
+    onClick={[Function]}
+  >
+    <button
+      aria-label="delete"
+      className="MuiButtonBase-root MuiIconButton-root Component-iconButton-139  MuiIconButton-colorPrimary"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <audio
+          autoPlay={false}
+          className="MuiCardMedia-root MuiCardMedia-media"
+          preload="auto"
+          src="https://api.pearson.comtest"
+        />
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root Component-speakerIcon-140 BRITAIN_SPEAKER_HEADWORD"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

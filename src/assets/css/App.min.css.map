@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,4BAA4B,CACzC,OAAO,CAAE,GAAG,CACZ,MAAM,CAAE,GAAG,CAAC,KAAK,CALJ,GAAG,CAUjB,AARD,AAKE,IALE,CAKF,CAAC,AAAC,CACA,gBAAgB,CATT,IAAM,CAUd",
+    "sources": [
+        "../scss/App.scss"
+    ],
+    "names": [],
+    "file": "App.min.css"
+}
